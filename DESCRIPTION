@@ -1,7 +1,7 @@
 Package: WGSmapp
 Type: Package
 Title: Mappability tracks of Whole-genome Sequencing from the ENCODE Project
-Version: 1.3.0
+Version: 1.4.0
 Author: Rujin Wang
 Maintainer: Rujin Wang <rujin@email.unc.edu>
 Description: This package provides whole-genome mappability tracks on human hg19/hg38 assembly. We employed the 100-mers mappability track from the ENCODE Project and computed weighted average of the mappability scores if multiple ENCODE regions overlap with the same bin. “Blacklist” bins, including segmental duplication regions and gaps in reference assembly from telomere, centromere, and/or heterochromatin regions are included. The dataset consists of three assembled .bam files of single-cell whole genome sequencing from 10X for illustration purposes. 
